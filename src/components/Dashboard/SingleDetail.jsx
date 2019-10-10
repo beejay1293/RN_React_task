@@ -7,15 +7,6 @@ const SingleDetail = ({
 }) => (
   <Col sm="4">
   <Card body className="text-center DetailsCard">
-    <div className="SingleList">
-      <div>
-        <div >
-         
-        </div>
-      </div>
-       <div> 
-      </div>
-    </div>
     <CardTitle>{name} ({sym})</CardTitle>
     <p>Percentage Changes</p>
     <Table hover>
