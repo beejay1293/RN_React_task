@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Header component should render component 1`] = `
+<Fragment>
+  <header
+    className="header__container"
+  >
+    <div
+      className="logo"
+    >
+      <h1
+        className="header"
+      >
+        <span>
+          <em>
+            COIN
+          </em>
+        </span>
+        <b
+          className="coin"
+        >
+          marketcap
+        </b>
+      </h1>
+    </div>
+  </header>
+</Fragment>
+`;

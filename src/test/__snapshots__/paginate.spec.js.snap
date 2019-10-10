@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Paginate component should render component 1`] = `
+<Pagination
+  aria-label="Page navigation"
+  listTag="ul"
+  size="sm"
+  tag="nav"
+>
+  <PaginationItem
+    disabled={true}
+    id={1}
+    tag="li"
+  >
+    <PaginationLink
+      first={true}
+      id={1}
+      tag="a"
+    />
+  </PaginationItem>
+  <PaginationItem
+    disabled={true}
+    id="prev"
+    tag="li"
+  >
+    <PaginationLink
+      id="prev"
+      previous={true}
+      tag="a"
+    />
+  </PaginationItem>
+  <PaginationItem
+    className=""
+    id={1}
+    key="0"
+    tag="li"
+  >
+    <PaginationLink
+      id={1}
+      tag="a"
+    >
+      1
+    </PaginationLink>
+  </PaginationItem>
+  <PaginationItem
+    disabled={true}
+    id="next"
+    tag="li"
+  >
+    <PaginationLink
+      id="next"
+      next={true}
+      tag="a"
+    />
+  </PaginationItem>
+  <PaginationItem
+    disabled={true}
+    tag="li"
+  >
+    <PaginationLink
+      last={true}
+      tag="a"
+    />
+  </PaginationItem>
+</Pagination>
+`;

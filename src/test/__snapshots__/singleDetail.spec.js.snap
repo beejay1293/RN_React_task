@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Single Detail component should render component 1`] = `
+<Col
+  sm="4"
+  tag="div"
+  widths={
+    Array [
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+    ]
+  }
+>
+  <Card
+    body={true}
+    className="text-center DetailsCard"
+    tag="div"
+  >
+    <div
+      className="SingleList"
+    >
+      <div>
+        <div />
+      </div>
+      <div />
+    </div>
+    <CardTitle
+      tag="div"
+    >
+      RN
+       (
+      )
+    </CardTitle>
+    <p>
+      Percentage Changes
+    </p>
+    <Table
+      hover={true}
+      responsiveTag="div"
+      tag="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            1 Hour
+          </th>
+          <th>
+            27 Hours
+          </th>
+          <th>
+            7 days
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            23
+          </td>
+          <td>
+            455
+          </td>
+          <td>
+            95604
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+    <CardTitle
+      tag="div"
+    >
+      Price: 
+      20
+    </CardTitle>
+    <CardTitle
+      tag="div"
+    >
+      Total Supply: 
+      300
+    </CardTitle>
+    <CardTitle
+      tag="div"
+    >
+      cmc Rank: 
+      3
+    </CardTitle>
+    <CardText
+      tag="p"
+    >
+      <b>
+        Added on
+      </b>
+       
+      .
+    </CardText>
+    <CardText
+      tag="p"
+    >
+      <b>
+        Updated on
+      </b>
+       
+      .
+    </CardText>
+  </Card>
+</Col>
+`;
