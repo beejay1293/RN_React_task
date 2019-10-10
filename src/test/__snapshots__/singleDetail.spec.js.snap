@@ -19,14 +19,6 @@ exports[`test Single Detail component should render component 1`] = `
     className="text-center DetailsCard"
     tag="div"
   >
-    <div
-      className="SingleList"
-    >
-      <div>
-        <div />
-      </div>
-      <div />
-    </div>
     <CardTitle
       tag="div"
     >
