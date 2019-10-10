@@ -34,7 +34,7 @@ export class Detail extends Component {
     }else if (id === 'prev'){
       let prev = parseInt(currentPage, 10) - 1
       if(prev < 1){
-       prev = 0
+       prev = 1
       }
       getDetails(prev)
       this.setState({
