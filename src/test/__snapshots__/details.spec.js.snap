@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Dashboard component should render component 1`] = `
+<ContextProvider
+  value={null}
+>
+  <withRouter(Detail)
+    details={Array []}
+    getDetails={[Function]}
+    loading={false}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

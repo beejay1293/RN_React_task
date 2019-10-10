@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Dashboard component should render component 1`] = `
+<section
+  className="main"
+>
+  <Header />
+  <Connect(withRouter(Detail)) />
+</section>
+`;
